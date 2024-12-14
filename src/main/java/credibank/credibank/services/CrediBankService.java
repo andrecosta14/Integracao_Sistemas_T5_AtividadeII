@@ -9,6 +9,7 @@ public class CrediBankService {
 
   private WebClient webClient;
 
+
   public CrediBankService() {
     this.webClient = WebClient.builder().baseUrl("https://credibank.intsis.utad.pt:8080").build();
   }
